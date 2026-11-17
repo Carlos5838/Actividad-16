@@ -2,11 +2,12 @@
 Actividad 16. Análisis de desempeño de algoritmo paralelo
 Simulación meteorológica 2D con descomposición por franjas y Ghost Cells.
 
+200711 - Carlos Andrés Hernández Díaz
+200871 - Carlos Jesus Graniel Gonzalez
+195721 - Rogelio Sotomayor Carrasco
+
 Requisitos:
     pip install numpy
-
-Ejemplo:
-    python simulacion_meteorologica_paralela.py --N 500 --steps 30 --repeats 3
 
 El programa ejecuta las configuraciones de 1, 2, 4 y 8 procesos, mide el
 tiempo total de pared y calcula aceleración y eficiencia respecto a 1 proceso.
